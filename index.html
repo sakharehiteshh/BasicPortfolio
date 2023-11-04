@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hitesh Vilas Sakhare - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 id="name" onclick="showHome()">Hitesh Vilas Sakhare</h1>
+    <nav>
+      <ul id="allSections">
+        <li><a href="#" onclick="showSection('about')">About</a></li>
+        <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+        <li><a href="#" onclick="showSection('experience')">Experience</a></li>
+        <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+        <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+        <li><a href="resume .pdf" download>Download Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main >
+    <section id="about" style="display:none;">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate and versatile software engineer with a strong foundation in various programming languages and frameworks. My expertise ranges from front-end development using HTML, CSS, and JavaScript to back-end technologies such as Java, Python, and databases like MongoDB and PostgreSQL.
+      </p>
+      <p>
+        With hands-on experience in cloud services like AWS, GCP, and Azure, I am well-versed in deploying and scaling applications for optimal performance. Throughout my career, I have thrived in Agile environments, collaborating with cross-functional teams to deliver robust solutions that meet client requirements.
+      </p>
+      <p>
+        From building responsive UIs to implementing secure authentication, I take pride in creating elegant and efficient software solutions. Continuous learning and keeping up with the latest industry trends are essential aspects of my journey as a software engineer.
+      </p>
+      <p>
+        I am dedicated to crafting innovative and impactful applications that contribute positively to people's lives. Let's connect and explore new possibilities in the world of technology!
+      </p>
+    </section>
+    
+    
+
+    <section id="skills" style="display:none;">
+      <h2>Skills</h2>
+      <ul>
+        <!-- List your skills here -->
+        <li id="languages">Languages: HTML, CSS, JavaScript, TypeScript, Java, C, PHP, Python, C++, SQL, Kotlin.</li>
+        <li id="frameworks">Frameworks: Angular, React, Node, Express, Django, Flask, Spring.</li>
+        <li id="databases">Databases: MongoDB, MySQL, PostgreSQL. SQLlite3, Oracle, PL/SQL.</li>
+        <li id="cloud">Cloud Services: Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure, Heroku.</li>
+        <li id="Other">Other Tools & Libraries: Ajax, jQuery, XML, JSON, Bootstrap, Docker, MATLAB, TensorFlow, Keras, Pandas.</li>
+        <li id="vc">Version Control: Git (GitHub, GitLab, BitBucket).</li>
+      </ul>
+    </section>
+
+    <section id="experience" style="display:none;">
+      <h2>Professional Experience</h2>
+      
+      <div class="job">
+        <h3>Software Engineer Intern</h3>
+        <p class="company">Devoir Software Solutions LLC</p>
+        <p class="duration">Jan 2023 - May 2023</p>
+        <ul>
+          <li>Integrated third-party APIs from external applications into web platforms.</li>
+          <li>Wrote and optimized test cases to maximize the success of software testing with consistent approaches.</li>
+          <li>Executed code fixes for high-impact production issues, ensuring minimal downtime.</li>
+          <li>Secured the application including role-based access control by leveraging AWS cloud IAM services.</li>
+          <li>Wrote SQL scripts to cleanse and transform raw data, enhancing data quality and usability.</li>
+          <li>Visualized complex data and provided actionable insights using Tableau dashboard.</li>
+          <li>Monitored and improved cloud deployment expenses based on business needs.</li>
+          <li>Integrated version control systems into the CI/CD pipelines, enabling automatic code integration and continuous feedback loops.</li>
+        </ul>
+      </div>
+    
+      <div class="job">
+        <h3>Software Engineer</h3>
+        <p class="company">Nimbus Technologies</p>
+        <p class="duration">Jan 2019 - May 2021</p>
+        <ul>
+          <li>Optimized API performance by 30%, implemented Redis as a caching middleware, and utilized logging tools for debugging and fine-tuning.</li>
+          <li>Collaborated with software development and testing teams in Agile methodology to design and develop robust solutions, meeting client requirements for functionality, scalability, and performance.</li>
+          <li>Involved in all stages of the software development lifecycle, from gathering requirements to production releases.</li>
+          <li>Maintained responsive Application UIs using emerging Front End Technologies such as Angular.</li>
+          <li>Employed SQL and RDBMS for advanced data manipulation, optimizing schema design and indexing.</li>
+          <li>Integrated back-end components to seamlessly connect applications with web services.</li>
+          <li>Utilized Git for version control and achieved effective branching strategies for smooth collaboration with colleagues.</li>
+        </ul>
+      </div>
+    </section>
+    
+
+    <section id="projects" style="display:none;">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Fraud Detection System</h3>
+        <p class="duration">March 2023 - April 2023</p>
+        <ul>
+          <li>Developed fraud detection system using machine learning & data mining techniques for identifying fraudulent vehicle insurance claims, reducing financial losses & preventing increased premiums for loyal customers.</li>
+          <li>Preprocessed & cleaned dataset of 15,000+ vehicle insurance claims with Python & Pandas.</li>
+          <li>Performed exploratory data analysis to identify patterns and communicated insights through visualizations.</li>
+          <li>Benchmarked various classification algorithms, including Decision Trees, Random Forests, and AdaBoost, to identify the most effective approach.</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <h3>Traditional Model Classification</h3>
+        <p class="duration">Feb 2023 - March 2023</p>
+        <ul>
+          <li>Developed machine learning classifiers for heart disease prediction using a dataset of 11 features.</li>
+          <li>Executed benchmarking experiments for three prominent machine learning algorithms: k-Nearest Neighbors, Decision Trees, and Random Forest classifiers.</li>
+          <li>Utilized Python and scikit-learn for efficient model building.</li>
+          <li>Optimized classifier performance through hyperparameter tuning.</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <h3>Analysis on Most common hashtags on Twitter over one week</h3>
+        <p class="duration">Jan 2023 - Feb 2023</p>
+        <ul>
+          <li>Conducted sentiment analysis on Twitter hashtags over a week.</li>
+          <li>Used Tweepy API to access and extract Twitter data.</li>
+          <li>Preprocessed data by removing special characters, punctuations, and stop words.</li>
+          <li>Created a word cloud and plotted a histogram of the top 20 hashtags to identify the most frequent hashtags.</li>
+          <li>Identified the most common hashtags and their associated topics and analyzed the impact of removing less common hashtags on the dataset.</li>
+          <li>Developed skills in data collection, data preprocessing, data visualization, and statistical analysis.</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <h3>Blog Application</h3>
+        <p class="duration">Sept 2022 - Dec 2022</p>
+        <ul>
+          <li>Built a Python Django-based blog application with PostgreSQL and Social Auth for user blog creation, management, commenting, and social media authentication.</li>
+          <li>Designed a responsive and engaging UI using HTML, CSS, and Bootstrap.</li>
+          <li>Optimized scalability of the data model by 40% using PostgreSQL.</li>
+          <li>Applied secure authorization features for enhanced application security.</li>
+          <li>Managed source code with Git version control to improve collaboration, version control, and code quality.</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <h3>ChatBot with User Authentication</h3>
+        <p class="duration">Jan 2022 - April 2022</p>
+        <ul>
+          <li>Instrumented a responsive UI using React, enhancing user engagement and satisfaction across devices.</li>
+          <li>Engineered robust APIs with Node.js for a scalable server-side application architecture.</li>
+          <li>Deployed microservices on cloud platforms like Azure and Heroku to ensure availability and scalability which improved performance by 25%.</li>
+          <li>Secured user details and data with MongoDB, enabling seamless retrieval as needed.</li>
+          <li>Established continuous integration and deployment (CI/CD) for regular testing and production deployment, utilizing Git for version control.</li>
+        </ul>
+      </div>
+    </section>
+
+    <div id="imgContainer">
+      <img src="1hswordcloud.png" width="1280" height="720" id="wordcloudImg" >
+    </div>
+
+  </main>
+ 
+  
+  
+  <footer id="contact">
+    <h2>Contact</h2>
+    <p>Phone: (314)-302-8819</p>
+    <p>Email: sakharehiteshh@gmail.com</p>
+    <p><a href="https://www.linkedin.com/in/hitesh-sakhare-9960b8271/">LinkedIn: https://www.linkedin.com/in/hitesh-sakhare-9960b8271/</a></p>
+    <p>Github: https://github.com/sakharehiteshh/</p>
+  </footer>
+
+</body>
+<script>
+  function showSection(sectionId) {
+      const sections = document.querySelectorAll('section');
+      const wordcloudImg = document.getElementById('wordcloudImg');
+      const imgContainer = document.getElementById('imgContainer');
+
+      sections.forEach((section) => {
+        if (section.id === sectionId) {
+          section.style.display = 'block';
+          
+        } else {
+          section.style.display = 'none';
+          wordcloudImg.style.display = 'none'; 
+          imgContainer.style.display = 'none';
+        }
+      });
+    }
+
+    function showHome() {
+      const contact = document.getElementById('contact');
+      const imgContainer = document.getElementById('imgContainer');
+      const sections = document.querySelectorAll('section');
+      const wordcloudImg = document.getElementById('wordcloudImg');
+
+      contact.style.display = 'block';
+      imgContainer.style.display = 'flex';
+      wordcloudImg.style.display = 'flex';
+
+      sections.forEach((section) => {
+        if (section.id === contact) {
+          section.style.display = 'block';
+         
+        } else {
+          section.style.display = 'none';
+          
+        }
+      });
+    }
+    window.addEventListener('scroll', () => {
+    document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+    }, false);
+</script>
+</html>

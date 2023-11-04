@@ -1,0 +1,122 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#041778,#079c88);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 185dvh;
+  
+}
+
+header {
+  /* background: linear-gradient(#041b8e,#7ea1ff); */
+  color: #fff;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+  cursor: pointer;
+}
+
+
+#allSections, #name {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+}
+
+@media screen and (max-width: 800px){
+  #allSections {
+    display: flex;
+    flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 90vh;
+
+  }
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+/* Add button styles with hover animation */
+
+nav ul li a{
+  display: inline-block;
+}
+nav ul li a:hover {
+ 
+  border-radius: 20px;
+  background-color: #ffffff7b; /* Green */
+  color: black;
+}
+
+
+footer {
+  /* background: linear-gradient(#7ea1ff,#041b8e); */
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+#imgContainer{
+    display: flex;
+    justify-content: center;
+    height: 100vh; /* this will make the container take the full height of the viewport */
+}
+#wordcloudImg{
+  max-width: 100%;
+  height: auto;
+}
+
+#about ,#skills, #experience, #projects{
+  color: #fff;
+}
+
+@media screen and (max-width : 800px) {
+  #wordcloudImg{
+    width: 500px;
+    height: 500px;
+  }
+  
+  #imgContainer{
+    display: flex;
+    justify-content: center;
+    height: 70vh; /* this will make the container take the full height of the viewport */
+}
+  
+}
+
