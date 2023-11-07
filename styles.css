@@ -1,7 +1,7 @@
 /* styles.css */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Yatra One', sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -9,7 +9,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 185dvh;
+  height: auto;
+  min-height: 100vh;
+  max-height: 300vh;
   
 }
 
@@ -22,6 +24,11 @@ header {
 header h1 {
   margin: 0;
   cursor: pointer;
+}
+
+#navContact{
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -104,6 +111,7 @@ footer p {
 
 #about ,#skills, #experience, #projects{
   color: #fff;
+  
 }
 
 @media screen and (max-width : 800px) {
