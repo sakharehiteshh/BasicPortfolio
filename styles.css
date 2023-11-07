@@ -83,8 +83,7 @@ nav ul li a{
 nav ul li a:hover {
  
   border-radius: 20px;
-  background-color: #ffffff7b; /* Green */
-  color: black;
+  background-color: #ffffff7b;
 }
 
 
@@ -128,3 +127,6 @@ footer p {
   
 }
 
+#languages li{ 
+
+} 

@@ -199,9 +199,10 @@
       const sections = document.querySelectorAll('section');
       const wordcloudImg = document.getElementById('wordcloudImg');
 
-      contact.style.display = 'block';
+      
       imgContainer.style.display = 'flex';
       wordcloudImg.style.display = 'flex';
+      
 
       sections.forEach((section) => {
         if (section.id === contact) {
@@ -213,6 +214,9 @@
         }
       });
     }
+    window.onload = () => {
+      showHome();
+    };
     window.addEventListener('scroll', () => {
     document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
     }, false);
