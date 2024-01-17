@@ -11,7 +11,7 @@ body {
   background-position: center center;
   height: auto;
   min-height: 100vh;
-  max-height: 300vh;
+  max-height: fit-content;
   
 }
 
@@ -39,7 +39,7 @@ header h1 {
     height: 10vh; 
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 600px){
   #allSections {
     display: flex;
     flex-direction: column;
@@ -48,6 +48,7 @@ header h1 {
       height: 90vh;
 
   }
+ 
 }
 
 nav ul {
@@ -105,7 +106,8 @@ footer p {
 }
 #wordcloudImg{
   max-width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: contain;
 }
 
 #about ,#skills, #experience, #projects{
@@ -113,10 +115,10 @@ footer p {
   
 }
 
-@media screen and (max-width : 800px) {
+@media screen and (max-width : 600px) {
   #wordcloudImg{
-    width: 500px;
-    height: 500px;
+    width: fit-content;
+    height: fit-content;
   }
   
   #imgContainer{
